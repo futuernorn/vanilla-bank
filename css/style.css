@@ -1,0 +1,337 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    border: 0 none;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+	
+}
+
+.doneBtn {
+  padding: 5px;
+  margin: 1px;
+}
+
+hr {
+  margin: 0px 0px 5px 0px;
+}
+
+select.tablesorter-filter {
+    display: inline-block;
+    outline: none;
+    padding: 0px 0 0px 0;
+    color: #CCCCCC;
+    display: inline-block;
+    font-family: arial;
+    font-size: 15px;
+    margin-bottom: 10px;
+    padding: 5px 0 5px 0;
+    text-decoration: none;
+    text-shadow: 1px 1px 0 #0F0F0F;
+    background-color: #1F1F1F;        
+}
+
+.tablesorter-filter-row {
+  background-color: #1F1F1F; 
+}
+
+    .ui-autocomplete {
+    height: 250px;
+    max-height: 250px;
+    overflow-y: auto;
+    width:300px;
+}
+
+.ui-dialog{
+  height:600px;
+}
+.jqplot-data-label {
+  color: #FFFFFF;
+}
+
+
+ol, ul {
+    list-style: none outside none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+body {
+    /*background-image:url('/images/rainbow-flag.jpg');*/
+	background-color: #333;
+    color: #CCCCCC;
+    font-family: Arial;
+    padding: 0;
+}
+.clear {
+    clear: both;
+    font-size: 1px;
+    height: 0;
+    line-height: 0;
+    margin: 0;
+    padding: 0;
+}
+a {
+  color: white;
+  
+}
+a#floatingLink {
+	position: fixed; 
+	bottom:5px;
+	right:5px;
+	
+}
+
+
+table A:link{
+ text-decoration: none;
+ }
+table A:visited{
+ text-decoration: none;
+ }
+table A:active{
+ text-decoration: none;
+ }
+table A:hover{
+ text-decoration: underline;
+ }
+.bankerBookmark {
+        position: relative;
+        top: -40px;
+    }
+    
+div#page {
+    margin: 0;
+    padding: 10px 0 0 0;
+	
+}
+div#main-content {
+	width: 80%;
+	background: none repeat scroll 0 0 #141414;
+    margin: auto;
+    padding: 0;
+}
+
+div#header {
+
+    /*border-bottom: 2px solid #1C1C1C;*/
+    margin: auto;
+    padding: 50px 0 0 0;
+    width: 80%;
+}
+button {
+    background: none repeat scroll 0 0 #1F1F1F;
+    border: 1px solid #000000;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 1px 0 0 #454545 inset;
+    color: #CCCCCC;
+    display: inline-block;
+    font-family: arial;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 1px 1px 0 #0F0F0F;
+}
+button:hover {
+    background: none repeat scroll 0 0 #0A0A0A;
+	box-shadow:0 1px 0 0 #131313 inset;
+    cursor: pointer;
+}
+button:active {
+    position: relative;
+    top: 1px;
+}
+#header input {
+    background: none repeat scroll 0 0 #1F1F1F;
+    border: 1px solid #000000;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 1px 0 0 #000 inset;
+    color: #CCCCCC;
+    display: inline-block;
+    font-family: arial;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 1px 1px 0 #0F0F0F;
+}
+
+.infoText {
+	text-align:center;
+	font-size:10px;
+}
+
+/** STUPID HACK, don't know how to make this work 
+*   ALSO: itemCount should be changed to the more descriptive itemCountCell
+*   TODO: Fix this classname in the js
+*/
+.itemCount {
+	width:50px;
+}
+
+/** SORRY FOR NOT KNOWING CSS =D 
+* NOTE: The javascript running the changes between itemCount text and itemCount input will
+* respond to clicks anywhere in the row except for clicks in the input box or on
+* the item name.
+*/
+#main-content tbody input {
+    background: none repeat scroll 0 0 #1F1F1F;
+    border: 1px solid #000000;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 1px 0 0 #454545 inset;
+    color: #CCCCCC;
+    display: inline-block;
+    font-family: arial;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 1px 1px 0 #0F0F0F;
+	width:30px;
+	height:15px;
+}
+
+#main-content tbody input:hover {
+	background: none repeat scroll 0 0 #0A0A0A;
+}
+
+#main-content tbody input:hover {
+	position: relative;
+    top: 1px;
+}
+
+div#status {
+    margin: auto;
+    text-align: center;
+    width: 75%;
+}
+h1 {
+    font-size: 24px;
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+div#header-buttons {
+margin: 0px auto 0px auto;
+ text-align: center;
+}
+
+div#ajaxBusy {
+    margin: auto;
+    width: 50%;
+}
+
+tr {
+    border-top: 1px solid #141414;
+}
+.side-bar {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#location-table .google-visualization-table-table { /* blah */ }
+
+table.tablesorter {
+    font-family: arial;
+    text-align: left;
+    width: 100%;
+}
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+    background: none repeat scroll 0 0 #191919;
+    padding: 4px;
+}
+table.tablesorter thead tr .header {
+    background-image: url("./images/bg.gif");
+    background-position: right center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    padding: 10px 5px;
+	width: 25%;
+}
+table.tablesorter tbody td {
+    background-color: #282828;
+    box-shadow: 0 0 1px #2F2F2F;
+    padding: 9px 5px;
+    vertical-align: top;
+}
+
+table.tablesorter tbody tr.odd td {
+    background-color: #1F1F1F;
+}
+table.tablesorter thead tr .headerSortUp {
+    background-image: url("./images/asc.gif");
+}
+table.tablesorter thead tr .headerSortDown {
+    background-image: url("./images/desc.gif");
+}
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+    background-color: #333;
+}
+/* Added a border to clarify selections, also I think this border fucks up everything */
+table.tablesorter tbody tr.hilite td {
+	border: 1px solid #999;
+    background-color: #141414;
+}
+
+/* filter widget, added to style.css themes */ 
+/* from: http://mottie.github.com/tablesorter/docs/example-widget-filter.html */
+table.tablesorter thead input.filter { 
+    width: 65%; 
+	background: none repeat scroll 0 0 #1F1F1F;
+    border: 1px solid #000000;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 1px 0 0 #000 inset;
+    color: #CCCCCC;
+    display: inline-block;
+    font-family: arial;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 1px 1px 0 #0F0F0F;
+} 
+
+table.tablesorter thead input.tablesorter-filter { 
+    width: 65%; 
+	background: none repeat scroll 0 0 #1F1F1F;
+    border: 1px solid #000000;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 1px 0 0 #000 inset;
+    color: #CCCCCC;
+    display: inline-block;
+    font-family: arial;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 1px 1px 0 #0F0F0F;
+} 
+
+table.tablesorter thead input.disabled { 
+display: none;
+} 
+table.tablesorter thead tr.filters, table.tablesorter thead tr.filters td { 
+    text-align: center; 
+   /* background: #fff; */
+}
+
+

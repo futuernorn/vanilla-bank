@@ -1,0 +1,10 @@
+LGW_Data["redarmy"] = {
+	["text"] = 		"* Red Army Choir *",
+	["AllianceEnemyText"] = 	"",
+	["HordeEnemyText"] = 		"",
+	["msg"] = " je pripraven k boji.",
+	["emote"] = "salute",
+  ["category"] = "Music",
+	["subcategory"] = "Nationalism",
+	["file"] = dir.."redarmy",
+};

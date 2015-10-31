@@ -1,0 +1,12 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^btc\.getweirdwith\.us$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.btc\.getweirdwith\.us$
+RewriteRule ^/?$ "http\:\/\/getweirdwith\.us\/forums\/dkp\.php\?page\=standings" [R=301,L]
+
+
+<Files 403.shtml>
+order allow,deny
+allow from all
+</Files>
+

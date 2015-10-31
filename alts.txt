@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<PlayerAlts>
+	<Alt>
+		<alias>Nerffear</alias>
+		<member>Shiftypants</member>
+	</Alt>
+  <Alt>
+		<alias>Timtebow</alias>
+		<member>Shiftypants</member>
+	</Alt>
+  <Alt>
+		<alias>Pewpewpants</alias>
+		<member>Shiftypants</member>
+	</Alt>
+  <Alt>
+		<alias>Tooba</alias>
+		<member>Xoober</member>
+	</Alt>
+  <Alt>
+		<alias>Goober</alias>
+		<member>Xoober</member>
+	</Alt>
+  <Alt>
+		<alias>Woober</alias>
+		<member>Xoober</member>
+	</Alt>
+  <Alt>
+		<alias>Zoober</alias>
+		<member>Xoober</member>
+	</Alt>
+  <Alt>
+		<alias>Taurenwarrio</alias>
+		<member>Gnomak</member>
+	</Alt>
+  <Alt>
+		<alias>Nutshot</alias>
+		<member>Tonydanza</member>
+	</Alt>
+</PlayerAlts>
